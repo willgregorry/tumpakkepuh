@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="relative flex items-center justify-center w-full h-screen">
+    <section className="relative flex items-center justify-center w-full h-dvh">
       <div className="flex items-center justify-center w-full h-full bg-black/70 absolute top-0 left-0">
         <div className="flex flex-col gap-8 text-center text-base md:text-lg">
           <span className="font-plusJakarta uppercase">Welcome to</span>
@@ -19,11 +19,24 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className="text-center absolute bottom-0 font-plusJakarta text-xs uppercase text-white/80 animate-[bounce_2s_infinite] w-auto h-auto">
+        <div className="absolute flex flex-col items-center bottom-0 font-plusJakarta text-xs uppercase text-white/80 animate-[bounce_2s_infinite] w-auto h-auto">
           <p className="">
             Scroll
           </p>
-          <span>&#11167;</span>
+          <svg 
+            xmlns="http://www.w3.org/2000/svg" 
+            width="24" 
+            height="24" 
+            viewBox="0 0 24 24" 
+            fill="none" 
+            stroke="currentColor" 
+            strokeWidth="2" 
+            strokeLinecap="round" 
+            strokeLinejoin="round" 
+            className="w-5 h-5"
+          >
+            <path d="m6 9 6 6 6-6"/>
+          </svg>
         </div>
       </div>
 
