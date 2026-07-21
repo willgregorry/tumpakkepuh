@@ -14,6 +14,7 @@ export default function Navbar() {
       <div className="hidden md:flex items-center gap-6 font-plusJakarta text-white">
         <nav className="cursor-pointer hover:opacity-70 transition-opacity">Wisata</nav>
         <nav className="cursor-pointer hover:opacity-70 transition-opacity">Kegiatan</nav>
+        <nav className="cursor-pointer hover:opacity-70 transition-opacity">Galeri</nav>
         <nav className="cursor-pointer hover:opacity-70 transition-opacity">Cara Ke Sini</nav>
         <button className="hidden md:block px-4 py-2 bg-orange-300 text-black font-medium rounded-full hover:bg-white transition-colors">
             tes
@@ -52,6 +53,7 @@ export default function Navbar() {
       >
         <nav className="text-lg cursor-pointer hover:text-gray-300 transition-colors">Wisata</nav>
         <nav className="text-lg cursor-pointer hover:text-gray-300 transition-colors">Kegiatan</nav>
+        <nav className="text-lg cursor-pointer hover:text-gray-300 transition-colors">Galeri</nav>
         <nav className="text-lg cursor-pointer hover:text-gray-300 transition-colors">Cara Ke Sini</nav>
         <button className="px-8 py-2 mt-2 bg-white text-black font-medium rounded-full hover:bg-gray-200 transition-colors">
           tes

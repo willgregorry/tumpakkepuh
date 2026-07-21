@@ -48,7 +48,7 @@ export default function Hero() {
         preload="auto"
         className="w-full h-full object-cover select-none"
       >
-        <source src="/hero.mp4" type="video/mp4" />
+        <source src="/hero_fix.mp4" type="video/mp4" />
       </video>
     </section>
   );
